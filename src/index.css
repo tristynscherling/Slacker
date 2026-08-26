@@ -40,16 +40,10 @@ body {
 }
 
 .sidebar {
-  width: 72px;
+  width: 220px;
   background: var(--sidebar);
   border-right: 1px solid var(--sidebar-border);
   padding: 1rem 0.75rem;
-  overflow: hidden;
-  transition: width 0.2s ease;
-}
-
-.sidebar:hover {
-  width: 220px;
 }
 
 .app-title {
@@ -58,12 +52,6 @@ body {
   font-weight: 700;
   color: #f8fafc;
   white-space: nowrap;
-  opacity: 0;
-  transition: opacity 0.15s ease;
-}
-
-.sidebar:hover .app-title {
-  opacity: 1;
 }
 
 nav.nav_guide.bar {
@@ -98,14 +86,7 @@ nav.nav_guide.bar a {
   font-size: 0.94rem;
   font-weight: 600;
   white-space: nowrap;
-  opacity: 0;
   transition: background-color 0.2s ease, color 0.2s ease, opacity 0.15s ease;
-}
-
-.sidebar:hover .nav_guide.bar a,
-nav.nav_guide.bar a.active,
-nav.nav_guide.bar a:hover {
-  opacity: 1;
 }
 
 nav.nav_guide.bar a:hover,
